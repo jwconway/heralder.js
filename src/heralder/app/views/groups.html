@@ -1,0 +1,15 @@
+<div class="row-fluid span-12" ng-controller="GroupsCtrl">
+<div class="table-responsive">
+	<table class="table">
+		<thhead>
+			<th>Name</th>
+		</thead>
+		<tr ng-repeat="group in groups">
+			<td>{{ group.name }}</td>
+		</tr>
+	</table>
+</div>
+<div class="">
+<button class="btn  btn-info"><span class="glyphicon glyphicon-th-large"></span> New Group</button>
+</div>
+</div>
